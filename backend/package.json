@@ -1,0 +1,33 @@
+{
+  "name": "flood-insurance-app-backend",
+  "version": "1.0.0",
+  "description": "Backend for flood severity assessment and insurance calculation using remote sensing and machine learning.",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^8.3.2",
+    "dotenv": "^8.2.0",
+    "cors": "^2.8.5",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "ts-node": "^9.1.1",
+    "jest": "^26.6.3",
+    "@types/jest": "^26.0.0",
+    "@types/node": "^14.14.31",
+    "@types/express": "^4.17.8",
+    "@types/mongoose": "^5.11.97",
+    "@types/cors": "^2.8.17",
+    "@types/body-parser": "^1.19.5"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "license": "MIT"
+}

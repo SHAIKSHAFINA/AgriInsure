@@ -1,0 +1,20 @@
+{
+  "preprocessing": {
+    "scaling": {
+      "method": "min-max",
+      "range": [0, 1]
+    },
+    "imputation": {
+      "method": "mean",
+      "columns": ["precipitation", "temperature", "humidity"]
+    },
+    "feature_selection": {
+      "method": "correlation",
+      "threshold": 0.5
+    },
+    "encoding": {
+      "method": "one-hot",
+      "columns": ["crop_type", "soil_type"]
+    }
+  }
+}
